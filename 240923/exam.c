@@ -52,5 +52,56 @@
 //     return 0;
 // }
 
-// 백준 문제 번호: 2753
-// 문제 설명: 윤년 계산 
+// 백준 문제 번호: 9498
+// 문제 설명: 시험 성적
+
+// #include <stdio.h>
+
+// int main(void){
+//     int num1;
+//     scanf("%d", &num1);
+//     if (num1 > 89){
+//         printf("A");
+//     }
+//     else if (num1 > 79){
+//         printf("B");
+//     }
+//     else if (num1 > 69){
+//         printf("C");
+//     }
+//     else if (num1 > 59){
+//         printf("D");
+//     }
+//     else{
+//         printf("F");
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+
+// int main(void){
+//     int num1;
+//     scanf("%d", &num1);
+
+//     switch (num1/10) {
+//         case 9:
+//             printf("A");
+//         break;
+//         case 8:
+//             printf("B");
+//         break;
+//         case 7:
+//             printf("C");
+//         break;
+//         case 6:
+//             printf("D");
+//         break;
+//         default:
+//             printf("F");
+//         break;
+//     }
+    
+//     return 0;
+// }
