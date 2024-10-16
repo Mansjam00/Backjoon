@@ -2,12 +2,15 @@
 
 // #include <stdio.h>
 
-// int main(void){
-//     for(int i = 1; i <= 9; i++){// 1에서 9까지 곱하는수 
-//         for(int j = 2; j <= 9; j++){ // 2단에서 9단까지 수
-//             printf("%d * %d = %d\t", j, i, j*i); // 출력
+// int main(void) {
+//     for (int k = 1; k <= 9; k += 3) { // 1단부터 9단까지 3개씩 묶어 출력
+//         for (int i = 1; i <= 9; i++) { // 곱해지는 수 1~9
+//             for (int j = k; j < k + 3; j++) { // k단부터 k+2단까지 출력
+//                 printf("%d * %d = %2d\t", j, i, j * i);
+//             }
+//             printf("\n"); // 개행
 //         }
-//         printf("\n"); //개행
+//         printf("\n"); // 각 묶음 사이에 개행
 //     }
 //     return 0;
 // }
@@ -19,7 +22,7 @@
 
 // int main()
 // {
-//     int a = 0, b = 1, n;
+//     int a = 0, b = 1, n;a
 
 //     scanf("%d", &n);// 몇번째 수를 출력하는지 입력받기
 
